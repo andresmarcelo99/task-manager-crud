@@ -20,7 +20,7 @@ A full-stack Task List application with Authentication and CRUD operations built
 
 ✅ **UI Library:** Material-UI (MUI) components
 
-✅ **Database:** MySQL with Prisma ORM (ready for PlanetScale)
+✅ **Database:** Postgres with Prisma ORM 
 
 ✅ **Mark Done Service:** Dedicated API service for marking tasks complete
 
