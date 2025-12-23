@@ -15,12 +15,6 @@ export class MarkDoneService {
     // This service acts as a dedicated resolver/service for marking tasks as done
     const task = await this.tasksService.markAsCompleted(taskId, user);
     
-    // Here you could add additional logic like:
-    // - Sending notifications
-    // - Logging completion events
-    // - Triggering other workflows
-    // - Analytics tracking
-    
     return {
       message: 'Task marked as completed successfully',
       task,
